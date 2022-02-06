@@ -41,7 +41,10 @@ function employee_taxonomy_name($tax_name){
         }
         $terms_name = join( " ", $tax_arr);
     endif;
-    echo $terms_name;
+        
+    if (!empty($terms_name)) {
+      echo $terms_name;
+    }
 }
 
 
