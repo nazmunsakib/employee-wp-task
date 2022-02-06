@@ -1,0 +1,53 @@
+/*
+Theme Name: Twenty Twenty Child
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Template: twentytwenty
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020
+Tags: blog,one-column,custom-background,custom-colors,custom-logo,custom-menu,editor-style
+Version: 1.9
+
+*/
+
+/*Employee Card*/
+.employee-card {
+    background-color: #fff;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px #ddd;
+}
+.employee_name {
+    margin: 0;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.employee_designation {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #666666;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.employee_cat_name {
+    font-size: 80%;
+    color: #333;
+    font-weight: 500;
+}
+
+/*Employee Pasination style */
+.page-numbers {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 50px;
+}
+.page-numbers li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 0;
+    padding: 10px;
+}
