@@ -45,7 +45,7 @@ the_post();
 						                </span>	
 									</h3>
 									<h5 class="employee_designation">
-										<?php echo esc_html(get_field('employee_designation')); ?>
+										<?php echo esc_html( get_post_meta(get_the_ID(), 'employee_designation', true)); ?>
 									</h5>
 									<?php the_excerpt(); ?>
 								</div>
